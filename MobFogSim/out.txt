@@ -1,0 +1,1572 @@
+Inicio: Fri Feb 19 22:57:14 IRST 2021
+MobileController 213 processAppSubmit 0.0 Submitted application MyApp_vr_game3
+Creating client3 on device SmartThing3
+Creating AppModuleVm_SmartThing3 on device ServerCloudlet52
+MobileController 240 ProcessAppSubmit
+MobileController 240 ProcessAppSubmit
+MobileController 213 processAppSubmit 0.0 Submitted application MyApp_vr_game1
+Creating AppModuleVm_SmartThing1 on device ServerCloudlet76
+Creating client1 on device SmartThing1
+MobileController 240 ProcessAppSubmit
+MobileController 240 ProcessAppSubmit
+MobileController 213 processAppSubmit 0.0 Submitted application MyApp_vr_game2
+Creating AppModuleVm_SmartThing2 on device ServerCloudlet76
+Creating client2 on device SmartThing2
+MobileController 240 ProcessAppSubmit
+MobileController 240 ProcessAppSubmit
+MobileController 213 processAppSubmit 0.0 Submitted application MyApp_vr_game0
+Creating AppModuleVm_SmartThing0 on device ServerCloudlet98
+Creating client0 on device SmartThing0
+MobileController 240 ProcessAppSubmit
+MobileController 240 ProcessAppSubmit
+2000
+17000
+17000
+21000
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ServerCloudlet52 Creating 1 instances of module AppModuleVm_SmartThing3
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ServerCloudlet76 Creating 1 instances of module AppModuleVm_SmartThing1
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ServerCloudlet76 Creating 1 instances of module AppModuleVm_SmartThing2
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ServerCloudlet98 Creating 1 instances of module AppModuleVm_SmartThing0
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+SmartThing0 Creating 1 instances of module client0
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+SmartThing1 Creating 1 instances of module client1
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+SmartThing2 Creating 1 instances of module client2
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3]
+SmartThing3 Creating 1 instances of module client3
+ Apps [MyApp_vr_game3, MyApp_vr_game1]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+SmartThingListSize: 4
+SmartThingListSize: 4
+SmartThingListSize: 4
+criado...
+0	10370	2233	3000.0	Fri Feb 19 22:57:17 IRST 2021
+MobileController 213 processAppSubmit 3000.0 Submitted application MyApp_vr_game0
+Creating AppModuleVm_SmartThing0 on device ServerCloudlet98
+Creating client0 on device SmartThing0
+MobileController 240 ProcessAppSubmit
+MobileController 240 ProcessAppSubmit
+SmartThingListSize: 4
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ServerCloudlet98 Creating 1 instances of module AppModuleVm_SmartThing0
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+SmartThing0 Creating 1 instances of module client0
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+0	10369	2234	4000.0	Fri Feb 19 22:57:18 IRST 2021
+SmartThing0	10369	2234
+AccessPoint98	10672	2668
+529.3061495958648
+Distance 529.3061495958648Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.3253489882 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5293061495958647
+0	10366	2236	5000.0	Fri Feb 19 22:57:19 IRST 2021
+SmartThing0	10366	2236
+AccessPoint98	10672	2668
+529.3958821146987
+Distance 529.3958821146987Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32543872073 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5293958821146987
+0	10363	2240	6000.0	Fri Feb 19 22:57:20 IRST 2021
+SmartThing0	10363	2240
+AccessPoint98	10672	2668
+527.8872985780204
+Distance 527.8872985780204Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32393013718 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5278872985780204
+0	10357	2244	7000.0	Fri Feb 19 22:57:21 IRST 2021
+SmartThing0	10357	2244
+AccessPoint98	10672	2668
+528.2054524519791
+Distance 528.2054524519791Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32424829106 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5282054524519791
+0	10350	2250	8000.0	Fri Feb 19 22:57:22 IRST 2021
+SmartThing0	10350	2250
+AccessPoint98	10672	2668
+527.6438192568922
+Distance 527.6438192568922Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32368665785 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5276438192568923
+0	10342	2258	9000.0	Fri Feb 19 22:57:23 IRST 2021
+SmartThing0	10342	2258
+AccessPoint98	10672	2668
+526.3078946776307
+Distance 526.3078946776307Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32235073327 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5263078946776306
+0	10332	2266	10000.0	Fri Feb 19 22:57:24 IRST 2021
+SmartThing0	10332	2266
+AccessPoint98	10672	2668
+526.5016619157057
+Distance 526.5016619157057Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32254450052 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5265016619157057
+0	10323	2274	11000.0	Fri Feb 19 22:57:25 IRST 2021
+SmartThing0	10323	2274
+AccessPoint98	10672	2668
+526.3430440311718
+Distance 526.3430440311718Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32238588264 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5263430440311717
+0	10316	2280	12000.0	Fri Feb 19 22:57:26 IRST 2021
+SmartThing0	10316	2280
+AccessPoint98	10672	2668
+526.5738314804487
+Distance 526.5738314804487Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32261667008 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5265738314804487
+0	10312	2284	13000.0	Fri Feb 19 22:57:27 IRST 2021
+SmartThing0	10312	2284
+AccessPoint98	10672	2668
+526.3610927870714
+Distance 526.3610927870714Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.32240393138 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5263610927870713
+0	10309	2286	14000.0	Fri Feb 19 22:57:28 IRST 2021
+SmartThing0	10309	2286
+AccessPoint98	10672	2668
+526.9658432953696
+Distance 526.9658432953696Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 235212.3230086819 size: 128 bandwidth: 1.0499746674689643E7 tempo 102263.59332919221 cloudlet uplink latency 4.123812950236 delay st cloudlet 1.4075727462768555 latency distance cloud st 0.5269658432953697
+0	10308	2287	15000.0	Fri Feb 19 22:57:30 IRST 2021
+SmartThing0	10308	2287
+AccessPoint98	10672	2668
+526.9316843766372
+Distance 526.9316843766372Diff 960 max 1000
+SmartThingListSize: 4
+0	10308	2287	16000.0	Fri Feb 19 22:57:31 IRST 2021
+SmartThing0	10308	2287
+AccessPoint98	10672	2668
+526.9316843766372
+Distance 526.9316843766372Diff 960 max 1000
+SmartThingListSize: 4
+0	10308	2287	17000.0	Fri Feb 19 22:57:32 IRST 2021
+SmartThing0	10308	2287
+AccessPoint98	10672	2668
+526.9316843766372
+Distance 526.9316843766372Diff 960 max 1000
+SmartThingListSize: 4
+criado...
+criado...
+0	10308	2287	18000.0	Fri Feb 19 22:57:34 IRST 2021
+1	7369	4866	18000.0	Fri Feb 19 22:57:34 IRST 2021
+2	7369	4866	18000.0	Fri Feb 19 22:57:34 IRST 2021
+SmartThing0	10308	2287
+AccessPoint98	10672	2668
+526.9316843766372
+Distance 526.9316843766372Diff 960 max 1000
+MobileController 213 processAppSubmit 18000.0 Submitted application MyApp_vr_game1
+Creating AppModuleVm_SmartThing1 on device ServerCloudlet76
+Creating client1 on device SmartThing1
+MobileController 240 ProcessAppSubmit
+MobileController 240 ProcessAppSubmit
+MobileController 213 processAppSubmit 18000.0 Submitted application MyApp_vr_game2
+Creating AppModuleVm_SmartThing2 on device ServerCloudlet76
+Creating client2 on device SmartThing2
+MobileController 240 ProcessAppSubmit
+MobileController 240 ProcessAppSubmit
+SmartThingListSize: 4
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ServerCloudlet76 Creating 1 instances of module AppModuleVm_SmartThing1
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ServerCloudlet76 Creating 1 instances of module AppModuleVm_SmartThing2
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+SmartThing1 Creating 1 instances of module client1
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+SmartThing2 Creating 1 instances of module client2
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+ Apps [MyApp_vr_game3, MyApp_vr_game1, MyApp_vr_game2, MyApp_vr_game0]
+Container VM 233497.30167399155 size: 128 bandwidth: 1.057683185912418E7 tempo 101518.28433140203 cloudlet uplink latency 4.247625900472 delay st cloudlet 0.21007004380226135 latency distance cloud st 0.7900158226263573
+Container VM 233497.29724830197 size: 128 bandwidth: 1.057683185912418E7 tempo 101518.28433140203 cloudlet uplink latency 4.247625900472 delay st cloudlet 0.20564435422420502 latency distance cloud st 0.7900158226263573
+0	10308	2287	19000.0	Fri Feb 19 22:57:36 IRST 2021
+1	7364	4852	19000.0	Fri Feb 19 22:57:36 IRST 2021
+2	7364	4852	19000.0	Fri Feb 19 22:57:36 IRST 2021
+SmartThing0	10308	2287
+AccessPoint98	10672	2668
+526.9316843766372
+Distance 526.9316843766372Diff 960 max 1000
+SmartThing1	7364	4852
+AccessPoint76	8004	5336
+802.4063808320569
+Distance 802.4063808320569Diff 960 max 1000
+SmartThing2	7364	4852
+AccessPoint76	8004	5336
+802.4063808320569
+Distance 802.4063808320569Diff 960 max 1000
+SmartThingListSize: 4
+Container VM 233497.31406454975 size: 128 bandwidth: 1.057683185912418E7 tempo 101518.28433140203 cloudlet uplink latency 4.247625900472 delay st cloudlet 0.21007004380226135 latency distance cloud st 0.802406380832057
+369.4160120595126
+369.33810068255946
+369.7433130849032
+369.4505884755282
+369.69869638568446
+369.3607447255282
+369.45394540912196
+369.4843714345126
+369.6246607411532
+369.8758814442782
+430.71050668841883
+491.47433115130946
+308.60535837298914
+308.66195322162196
+308.73148752337977
+308.60992075091883
+308.37601877337977
+308.61661935931727
+308.38126779681727
+308.26897836810633
+308.7287104237704
+369.6782190907626
+430.5403101552157
+491.6440699208407
+308.9193842518954
+247.73792673236412
+247.31550241595787
+247.68400217181724
+247.82070566302818
+247.44428659564537
+247.6191218007235
+247.35912729388755
+308.6046412099032
+369.4553492177157
+430.6058619130282
+491.60747934466883
+308.3032953847079
+247.84713388568443
+186.454204808536
+186.60303903705162
+187.09086252337974
+186.9453928578524
+186.35239053851646
+247.94617868548912
+308.8471644032626
+369.65703989154383
+430.44808603412196
+491.3454859364657
+308.52642465716883
+247.82096506244224
+186.69117380267662
+125.7431681264071
+Infinity
+125.66413141376061
+186.69324899798912
+247.42390085345787
+308.36124826556727
+369.45467783099696
+430.59942270404383
+491.5086939442782
+308.41617990619227
+247.72611642962974
+186.84221292621177
+126.04755808002038
+63.26485849505944
+125.92309595233483
+187.05407358295005
+247.54455209857505
+308.62020517474696
+369.5472376454501
+430.36675668841883
+491.59652353412196
+308.4090540517001
+247.91967416888755
+186.39648080951255
+125.91810251361413
+Infinity
+125.68143488055749
+186.68343759662193
+247.84103037005943
+308.56876779681727
+369.30938364154383
+430.31747079974696
+491.40621591693446
+308.5785639393954
+247.49496103412193
+186.354351292911
+186.31885934955162
+186.58109689837974
+186.77956796771568
+187.04589487201255
+247.71085764056724
+308.76897836810633
+369.94195200091883
+430.41671396380946
+491.3195765126376
+308.39506174212977
+247.527446996036
+Infinity
+247.62405038959068
+247.43197275287193
+247.31385446673912
+247.98739267474693
+247.83108163959068
+308.27653146869227
+369.30010629779383
+430.43746591693446
+491.5922815907626
+308.62313486224696
+308.5899927724032
+308.54935861712977
+308.6365015614657
+308.3789332020907
+308.37826181537196
+308.40040231830164
+308.3271753895907
+308.2731440175204
+369.50286508685633
+430.75606943255946
+491.41866708880946
+369.5943873036532
+369.5620081532626
+369.5736353505282
+369.4491236317782
+369.4311487782626
+369.37923837787196
+369.43636728412196
+369.41631723529383
+369.4159205067782
+369.46184946185633
+430.71456552630946
+491.39962412005946
+430.39825082904383
+430.38787485248133
+430.4167749989657
+430.56621957904383
+430.45647836810633
+430.4048121083407
+430.39104868060633
+430.3442652333407
+430.37200571185633
+430.7744104970126
+430.41524912005946
+491.31319833880946
+63.26485849505944
+63.26485849505944
+126.04755808002038
+125.91810251361413
+186.58109689837974
+125.68143488055749
+125.92309595233483
+186.77956796771568
+125.66413141376061
+186.31885934955162
+====================ToMigrate================== SmartThing2 298
+Migration time: 233497.31406454975
+MIGRATION 2 Position: 7364, 4852 Direction: 3 Speed: 14
+Distance between SmartThing2 and AccessPoint76: 802.4063808320569 Migration time: 233497.31406454975
+Container VM 233497.30963886017 size: 128 bandwidth: 1.057683185912418E7 tempo 101518.28433140203 cloudlet uplink latency 4.247625900472 delay st cloudlet 0.20564435422420502 latency distance cloud st 0.802406380832057
+369.4115831959872
+369.33367181903407
+369.7388842213778
+369.4461596120028
+369.69426752215907
+369.3563158620028
+369.44951654559657
+369.4799425709872
+369.6202318776278
+369.8714525807528
+430.70607782489344
+491.46990228778407
+308.60092950946375
+308.65752435809657
+308.7270586598544
+308.60549188739344
+308.3715899098544
+308.6121904957919
+308.3768389332919
+308.26454950458094
+308.724281560245
+369.6737902272372
+430.5358812916903
+491.6396410573153
+308.91495538837
+247.73349786883873
+247.31107355243248
+247.67957330829185
+247.8162767995028
+247.43985773211998
+247.6146929371981
+247.35469843036216
+308.6002123463778
+369.4509203541903
+430.6014330495028
+491.60305048114344
+308.2988665211825
+247.84270502215904
+186.4497759450106
+186.59861017352623
+187.08643365985435
+186.940963994327
+186.34796167499107
+247.94174982196373
+308.8427355397372
+369.65261102801844
+430.44365717059657
+491.3410570729403
+308.52199579364344
+247.81653619891685
+186.68674493915123
+125.73873926288171
+Infinity
+125.65970255023522
+186.68882013446373
+247.41947198993248
+308.3568194020419
+369.45024896747157
+430.59499384051844
+491.5042650807528
+308.4117510426669
+247.72168756610435
+186.83778406268638
+126.04312921649499
+63.26042963153405
+125.91866708880944
+187.04964471942466
+247.54012323504966
+308.61577631122157
+369.5428087819247
+430.36232782489344
+491.59209467059657
+308.4046251881747
+247.91524530536216
+186.39205194598716
+125.91367365008874
+Infinity
+125.6770060170321
+186.67900873309654
+247.83660150653404
+308.5643389332919
+369.30495477801844
+430.31304193622157
+491.40178705340907
+308.57413507587
+247.49053217059654
+186.3499224293856
+186.31443048602623
+186.57666803485435
+186.7751391041903
+187.04146600848716
+247.70642877704185
+308.76454950458094
+369.93752313739344
+430.41228510028407
+491.3151476491122
+308.3906328786044
+247.5230181325106
+Infinity
+247.6196215260653
+247.42754388934654
+247.30942560321373
+247.98296381122154
+247.8266527760653
+308.2721026051669
+369.29567743426844
+430.43303705340907
+491.5878527272372
+308.61870599872157
+308.5855639088778
+308.5449297536044
+308.6320726979403
+308.3745043385653
+308.37383295184657
+308.39597345477625
+308.3227465260653
+308.268715153995
+369.49843622333094
+430.75164056903407
+491.41423822528407
+369.5899584401278
+369.5575792897372
+369.5692064870028
+369.4446947682528
+369.4267199147372
+369.37480951434657
+369.43193842059657
+369.41188837176844
+369.4114916432528
+369.45742059833094
+430.71013666278407
+491.39519525653407
+430.39382196551844
+430.38344598895594
+430.4123461354403
+430.56179071551844
+430.45204950458094
+430.4003832448153
+430.38661981708094
+430.3398363698153
+430.36757684833094
+430.7699816334872
+430.41082025653407
+491.30876947528407
+63.26042963153405
+63.26042963153405
+125.91367365008874
+126.04312921649499
+186.57666803485435
+186.31443048602623
+186.39205194598716
+186.83778406268638
+Infinity
+125.6770060170321
+====================ToMigrate================== SmartThing1 295
+Migration time: 233497.30963886017
+MIGRATION 1 Position: 7364, 4852 Direction: 3 Speed: 14
+Distance between SmartThing1 and AccessPoint76: 802.4063808320569 Migration time: 233497.30963886017
+0	10308	2287	20000.0	Fri Feb 19 22:57:39 IRST 2021
+1	7359	4839	20000.0	Fri Feb 19 22:57:39 IRST 2021
+2	7359	4839	20000.0	Fri Feb 19 22:57:39 IRST 2021
+SmartThing0	10308	2287
+AccessPoint98	10672	2668
+526.9316843766372
+Distance 526.9316843766372Diff 960 max 1000
+SmartThing1	7359	4839
+AccessPoint76	8004	5336
+814.268997322138
+Distance 814.268997322138Diff 960 max 1000
+SmartThing2	7359	4839
+AccessPoint76	8004	5336
+814.268997322138
+Distance 814.268997322138Diff 960 max 1000
+SmartThingListSize: 4
+delayProcess41512.080395794685
+delayProcess41522.080395794685
+0	10308	2287	21000.0	Fri Feb 19 22:57:42 IRST 2021
+1	7354	4825	21000.0	Fri Feb 19 22:57:42 IRST 2021
+2	7354	4825	21000.0	Fri Feb 19 22:57:42 IRST 2021
+SmartThing0	10308	2287
+AccessPoint98	10672	2668
+526.9316843766372
+Distance 526.9316843766372Diff 960 max 1000
+SmartThing1	7354	4825
+AccessPoint76	8004	5336
+826.8137637944835
+Distance 826.8137637944835Diff 960 max 1000
+SmartThing2	7354	4825
+AccessPoint76	8004	5336
+826.8137637944835
+Distance 826.8137637944835Diff 960 max 1000
+SmartThingListSize: 4
+criado...
