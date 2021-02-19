@@ -498,6 +498,9 @@ public class AppExample {
 				+ ap.getServerCloudlet().getName());
 
 		}
+		
+		int iii;
+		
 		System.setOut(new PrintStream("out.txt"));
 		System.out.println("Inicio: " + Calendar.getInstance().getTime());
 		CloudSim.startSimulation();
