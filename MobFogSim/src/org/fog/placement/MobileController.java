@@ -323,6 +323,7 @@ public class MobileController extends SimEntity {
 			System.out.println("Size SmartThings: " + getSmartThings().size());
 			CloudSim.stopSimulation();
 			printTimeDetails();
+			printTimeDetailsToCSV();
 			printPowerDetails();
 			printCostDetails();
 			printNetworkUsageDetails();
@@ -692,6 +693,70 @@ public class MobileController extends SimEntity {
 		System.out.println("=========================================");
 	}
 
+	private void printTimeDetailsToCSV() {
+		
+		try (FileWriter fw = new FileWriter( "TimeDetails.CSV", true);
+				BufferedWriter bw = new BufferedWriter(fw);
+				PrintWriter out = new PrintWriter(bw))
+			{
+				
+				//out.println("=========================================");
+				//out.println("============== RESULTS ==================");
+				//out.println("=========================================");
+				out.println("EXECUTION TIME : "
+					+ (Calendar.getInstance().getTimeInMillis() - TimeKeeper.getInstance()
+						.getSimulationStartTime()));
+				out.println("=========================================");
+				out.println("APPLICATION LOOP DELAYS");
+				out.println("=========================================");
+				double mediaLatencia = 0.0;
+				double mediaLatenciaMax = 0.0;
+				for (Integer loopId : TimeKeeper.getInstance().getLoopIdToTupleIds().keySet()) {
+					out.println(getStringForLoopId(loopId) + ";"
+						+ TimeKeeper.getInstance().getLoopIdToCurrentAverage().get(loopId)
+						+ " MaxExecutionTime: "
+						+ TimeKeeper.getInstance().getMaxLoopExecutionTime().get(loopId));
+					//printResults(
+					//	String.valueOf(TimeKeeper.getInstance().getLoopIdToCurrentAverage().get(loopId)),
+					//	"results.txt");
+					//printResults(
+					//	String.valueOf(TimeKeeper.getInstance().getMaxLoopExecutionTime().get(loopId)),
+					//	"results.txt");
+					mediaLatencia += TimeKeeper.getInstance().getLoopIdToCurrentAverage().get(loopId);
+					mediaLatenciaMax += TimeKeeper.getInstance().getMaxLoopExecutionTime().get(loopId);
+				}
+				//printResults(
+				//	String.valueOf(mediaLatencia
+				//		/ TimeKeeper.getInstance().getLoopIdToCurrentAverage().keySet().size()),
+				//	"averageLoopIdToCurrentAverage.txt");
+				//printResults(
+				//	String.valueOf(mediaLatenciaMax
+				//		/ TimeKeeper.getInstance().getMaxLoopExecutionTime().keySet().size()),
+				//	"averageMaxLoopExecutionTime.txt");
+				out.println("=========================================");
+				out.println("TUPLE CPU EXECUTION DELAY");
+				out.println("=========================================");
+	
+				for (String tupleType : TimeKeeper.getInstance().getTupleTypeToAverageCpuTime().keySet()) {
+					out.println(tupleType + ";"
+						+ TimeKeeper.getInstance().getTupleTypeToAverageCpuTime().get(tupleType));
+				}
+	
+				out.println("=========================================");
+			
+				
+			} catch (UnsupportedEncodingException e) {
+				e.printStackTrace();
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		
+
+		
+	}
+	
 	private void printNetworkUsageDetails() {
 		System.out.println("=========================================");
 		System.out.println("=============NETWORK USAGE===============");
