@@ -699,7 +699,7 @@ public class MobileController extends SimEntity {
 				BufferedWriter bw = new BufferedWriter(fw);
 				PrintWriter out = new PrintWriter(bw))
 			{
-				
+				int i;
 				//out.println("=========================================");
 				//out.println("============== RESULTS ==================");
 				//out.println("=========================================");
