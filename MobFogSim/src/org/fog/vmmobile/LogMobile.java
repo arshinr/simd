@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 import org.cloudbus.cloudsim.core.CloudSim;
 
 public class LogMobile {
-	public static final int ERROR = 1;
+	public static final int ERROR = 1; 
 	public static final int DEBUG = 0;
 	
 	public static int LOG_LEVEL = LogMobile.DEBUG;

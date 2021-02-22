@@ -704,7 +704,7 @@ public class MobileController extends SimEntity {
 				+ (Calendar.getInstance().getTimeInMillis() - TimeKeeper.getInstance()
 					.getSimulationStartTime()));
 			
-			
+			int i2;
 			double mediaLatencia = 0.0;
 			double mediaLatenciaMax = 0.0;
 			for (Integer loopId : TimeKeeper.getInstance().getLoopIdToTupleIds().keySet()) {
