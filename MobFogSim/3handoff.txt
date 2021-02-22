@@ -1,1 +1,0 @@
-3	103000.0	6208	5741	1	14	AccessPoint52 [serverCloulet=ServerCloudlet52]	AccessPoint64 [serverCloulet=ServerCloudlet64]
