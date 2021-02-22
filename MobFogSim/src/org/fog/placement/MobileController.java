@@ -703,41 +703,27 @@ public class MobileController extends SimEntity {
 			 out1.println("EXECUTION TIME : "
 				+ (Calendar.getInstance().getTimeInMillis() - TimeKeeper.getInstance()
 					.getSimulationStartTime()));
-			System.out.println("=========================================");
-			out1.println("APPLICATION LOOP DELAYS");
-			out1.println("=========================================");
+			
+			
 			double mediaLatencia = 0.0;
 			double mediaLatenciaMax = 0.0;
 			for (Integer loopId : TimeKeeper.getInstance().getLoopIdToTupleIds().keySet()) {
-				out1.println(getStringForLoopId(loopId) + " ---> "
+				out1.println(getStringForLoopId(loopId) + ";"
 					+ TimeKeeper.getInstance().getLoopIdToCurrentAverage().get(loopId)
 					+ " MaxExecutionTime: "
 					+ TimeKeeper.getInstance().getMaxLoopExecutionTime().get(loopId));
-				printResults(
-					String.valueOf(TimeKeeper.getInstance().getLoopIdToCurrentAverage().get(loopId)),
-					"results.txt");
-				printResults(
-					String.valueOf(TimeKeeper.getInstance().getMaxLoopExecutionTime().get(loopId)),
-					"results.txt");
+				
 				mediaLatencia += TimeKeeper.getInstance().getLoopIdToCurrentAverage().get(loopId);
 				mediaLatenciaMax += TimeKeeper.getInstance().getMaxLoopExecutionTime().get(loopId);
 			}
-			printResults(
-				String.valueOf(mediaLatencia
-					/ TimeKeeper.getInstance().getLoopIdToCurrentAverage().keySet().size()),
-				"averageLoopIdToCurrentAverage.txt");
-			printResults(
-				String.valueOf(mediaLatenciaMax
-					/ TimeKeeper.getInstance().getMaxLoopExecutionTime().keySet().size()),
-				"averageMaxLoopExecutionTime.txt");
+			
 			 
 			for (String tupleType : TimeKeeper.getInstance().getTupleTypeToAverageCpuTime().keySet()) {
-				out1.println(tupleType + " ---> "
+				out1.println(tupleType + ";"
 					+ TimeKeeper.getInstance().getTupleTypeToAverageCpuTime().get(tupleType));
 			}
 
-			 out1.println("=========================================");
-			
+			 
 			
 			} catch (UnsupportedEncodingException e) {
 				e.printStackTrace();
