@@ -857,7 +857,7 @@ public class MobileController extends SimEntity {
 	public void printMigrationsDetalis_CSV() {
 			String  resultFileName="result_CSV.csv";
 		
-			  int ii;
+			  int iii;
 			
 			
 			
