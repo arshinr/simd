@@ -322,13 +322,15 @@ public class MobileController extends SimEntity {
 			System.out.println("CloudSim.clock(): " + CloudSim.clock());
 			System.out.println("Size SmartThings: " + getSmartThings().size());
 			CloudSim.stopSimulation();
+			
+			printMigrationsDetalis_CSV();
+			
 			printTimeDetails();
 			
 			printPowerDetails();
 			printCostDetails();
 			printNetworkUsageDetails();
 			printMigrationsDetalis();
-			printMigrationsDetalis_CSV();
 			
 			System.exit(0);
 			break;
