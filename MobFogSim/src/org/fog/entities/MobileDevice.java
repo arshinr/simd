@@ -178,7 +178,6 @@ public class MobileDevice extends FogDevice {
 		setMigStatusLive(false);
 		setPostCopyStatus(false);
 		setPreCopyStatus(false);
-
 		setVmSize(vmSize);
 		setHandoffStatus(false);
 		setLockedToHandoff(false);
@@ -636,7 +635,7 @@ public class MobileDevice extends FogDevice {
 	public void setPostCopyStatus(boolean postCopyStatus) {
 		this.postCopyStatus = postCopyStatus;
 	}
-	
+
 	public boolean isPreCopyStatus() {
 		return preCopyStatus;
 	}
@@ -644,7 +643,7 @@ public class MobileDevice extends FogDevice {
 	public void setPreCopyStatus(boolean preCopyStatus) {
 		this.preCopyStatus = preCopyStatus;
 	}
-
+	
 	public double getTimeStartLiveMigration() {
 		return timeStartLiveMigration;
 	}

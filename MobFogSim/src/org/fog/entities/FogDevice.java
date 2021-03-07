@@ -919,8 +919,9 @@ public class FogDevice extends PowerDatacenter {
 			}
 			else if (smartThing.getMigrationTechnique() instanceof LiveMigrationPrecopy) {
 				MyStatistics.getInstance().historyDowntime(smartThing.getMyId(),
-						smartThing.getMigTime() * 0.05);
+					smartThing.getMigTime() * 0.05);
 			}
+			
 			smartThing.setTimeFinishDeliveryVm(CloudSim.clock());
 		}
 		else {
@@ -952,11 +953,9 @@ public class FogDevice extends PowerDatacenter {
 				if (delayProcess >= 0) {
 					if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION) {
 						smartThing.setPostCopyStatus(true);
-						smartThing.setPreCopyStatus(false);
 						smartThing.setTimeStartLiveMigration(CloudSim.clock());
 					}
 					else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_PRECOPY) {
-						smartThing.setPostCopyStatus(false);
 						smartThing.setPreCopyStatus(true);
 						smartThing.setTimeStartLiveMigration(CloudSim.clock());
 					}

@@ -324,9 +324,7 @@ public class MobileController extends SimEntity {
 			CloudSim.stopSimulation();
 			
 			printMigrationsDetalis_CSV();
-			
 			printTimeDetails();
-			
 			printPowerDetails();
 			printCostDetails();
 			printNetworkUsageDetails();
@@ -430,6 +428,7 @@ public class MobileController extends SimEntity {
 											+ delayProcess, MobileEvents.SET_MIG_STATUS_TRUE, st);
 									}
 								}
+								
 								if (st.isPreCopyStatus() && !st.isMigStatus()) {
 									if (!st.isMigStatusLive()) {
 										st.setMigStatusLive(true);
@@ -696,8 +695,7 @@ public class MobileController extends SimEntity {
 
 		System.out.println("=========================================");
 	}
-	
-	
+
 	private void printNetworkUsageDetails() {
 		System.out.println("=========================================");
 		System.out.println("=============NETWORK USAGE===============");
@@ -856,232 +854,236 @@ public class MobileController extends SimEntity {
 		System.out.println("Total tuple: " + MyStatistics.getInstance().getMyCountTotalTuple());
 
 	}
+
+	
 	public void printMigrationsDetalis_CSV() {
-			String  resultFileName="result_CSV.csv";
+		String  resultFileName="result_CSV.csv";
+	
+		  int iii;
 		
-			  int iii;
-			
-			
-			
-			
-			/////////////////////////
-			double energyConsumedMean = 0.0;
-			int j = 0;
-			 
-			//Begin=========CLOUDLETS ENERGY CONSUMPTION"==========
-			 
-			for (FogDevice fogDevice : getServerCloudlets()) {
-				if (fogDevice.getEnergyConsumption() != 5.8736831999993116E7) {
-					System.out.println(fogDevice.getName() + ": Power = "
-						+ fogDevice.getHost().getPower());
-					System.out.println(fogDevice.getName() + ": Energy Consumed = "
-						+ fogDevice.getEnergyConsumption());
-					energyConsumedMean += fogDevice.getEnergyConsumption();
-					j++;
-				}
-			}
-			
-			
-			
-			printResults("Total consumido Coudlets;"
-					+ energyConsumedMean,
-					resultFileName);
-			printResults("Coudlets averageEnergyHistoryDevice;"
-					+ String.valueOf(energyConsumedMean / j),
-					resultFileName);
-			
-			
-			
-			
-			///AP DEVICES ENERGY CONSUMPTION");
-			energyConsumedMean = 0.0;
-			for (FogDevice apDevice : getApDevices()) {
-				System.out.println(apDevice.getName() + ": Energy Consumed = "
-					+ apDevice.getEnergyConsumption());
-				energyConsumedMean += apDevice.getEnergyConsumption();
+		
+		
+		
+		/////////////////////////
+		double energyConsumedMean = 0.0;
+		int j = 0;
+		 
+		//Begin=========CLOUDLETS ENERGY CONSUMPTION"==========
+		 
+		for (FogDevice fogDevice : getServerCloudlets()) {
+			if (fogDevice.getEnergyConsumption() != 5.8736831999993116E7) {
+				System.out.println(fogDevice.getName() + ": Power = "
+					+ fogDevice.getHost().getPower());
+				System.out.println(fogDevice.getName() + ": Energy Consumed = "
+					+ fogDevice.getEnergyConsumption());
+				energyConsumedMean += fogDevice.getEnergyConsumption();
 				j++;
 			}
-			
-			
-			printResults("Total consumido AP(AP DEVICES);"
-					+ energyConsumedMean,
-					resultFileName);
-			printResults("AP DEVICES averageEnergyHistoryDevice;"
-					+ String.valueOf(energyConsumedMean / j),
-					resultFileName);
-			
-			
-			
-			
-			//SMARTTHINGS ENERGY CONSUMPTION");			
-			energyConsumedMean = 0.0;
-			for (FogDevice mobileDevice : getSmartThings()) {
-				
-				
-				printResults( "mobileDevice:"+ mobileDevice.getName() + ": Power = ;"
-						+ mobileDevice.getHost().getPower(),
-						resultFileName);
-				
-				printResults( "mobileDevice:"+ mobileDevice.getName() + ": Energy Consumed;"
-						+ mobileDevice.getEnergyConsumption(),
-						resultFileName);
-			}
-			
-			for (int i = 0; i < MyStatistics.getInstance().getPowerHistory().size(); i++) {
-				
-				printResults( "SmartThing(" + i + ") Power;"
-						+ MyStatistics.getInstance().getPowerHistory().get(i),
-						resultFileName);
-				
-			}
-			
-			
-			for (int i = 0; i < MyStatistics.getInstance().getEnergyHistory().size(); i++) {
-				
-				energyConsumedMean += MyStatistics.getInstance().getEnergyHistory().get(i);
-				
-				printResults( "SmartThing(" + i + ") Energy Consumed;"
-						+ MyStatistics.getInstance().getEnergyHistory().get(i),
-						resultFileName);
-			}
-			//End=========CLOUDLETS ENERGY CONSUMPTION"==========
-			
-			
-			
-			 
+		}
 		
-			//"Begin=============NETWORK USAGE==============="/
-			
-			double deviceNetworkUsage = NetworkUsageMonitor.getNetworkUsage()
-				- NetworkUsageMonitor.getNetWorkUsageInMigration();
-			
-						
-			printResults("VM data transferred in migration;"
-					+ NetworkUsageMonitor.getVMTransferredData(),
-					resultFileName);
-			
-			printResults("getVMTransferredData / CloudSim.clock;"
-					+ String.valueOf(NetworkUsageMonitor.getVMTransferredData() / CloudSim.clock()),
-					resultFileName);
-			
-			
-			
-			/////
-			printResults("Device's network usage;"
-					+ deviceNetworkUsage,
-					resultFileName);
-			
-			printResults("deviceNetworkUsage / CloudSim.clock;"
-					+ String.valueOf(deviceNetworkUsage / CloudSim.clock()),
-					resultFileName);
-			
-			
-			
-			
-			
-			//////
-			printResults("Migration' network usage (total);"
-					+  NetworkUsageMonitor.getNetWorkUsageInMigration(),
-					resultFileName);
-			
-			printResults("Migration' network usage (mean);"
-					+  NetworkUsageMonitor.getNetWorkUsageInMigration()
-					/ MyStatistics.getInstance().getTotalMigrations(),
-					resultFileName);
-			
-			printResults("getNetWorkUsageInMigration / CloudSim.clock;"
-					+  String.valueOf(NetworkUsageMonitor.getNetWorkUsageInMigration() / CloudSim.clock()),
-					resultFileName);
-			
-			
-			//////
-			printResults("Total network usage;" + NetworkUsageMonitor.getNetworkUsage(), resultFileName);
-			printResults("getNetworkUsage() / CloudSim.clock);" + String.valueOf(NetworkUsageMonitor.getNetworkUsage() / CloudSim.clock()), resultFileName);
-			printResults("CloudSim.clock;" + CloudSim.clock(), resultFileName);
-			
-			//"End=============NETWORK USAGE==============="/
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			//Begin==============MIGRATIONS================="/
-			printResults("Total of migrations;" + MyStatistics.getInstance().getTotalMigrations(), resultFileName);
-			
-			printResults("Total of handoff;" + MyStatistics.getInstance().getTotalHandoff(), resultFileName);
-			printResults("Different Cloudlets reached along the user's path;" +  MyStatistics.getInstance().getMyCountLowestLatency(), resultFileName);
-			
-				
-			
-
-			printResults("Average of without connection;"
-					+ MyStatistics.getInstance().getAverageWithoutConnection(),
-					resultFileName);
-						
-
-			printResults("Average of without Vm;"
-					+ MyStatistics.getInstance().getAverageWithoutVmTime(),
-					resultFileName);
-			
-			
-			
-
-			printResults("Average of delay after new Connectionl"
-					+ MyStatistics.getInstance().getAverageDelayAfterNewConnection(), resultFileName);
-			
-			
-			double tempoMigracaoMax = 0.0;
-			for (Entry<Integer, Double> test : MyStatistics.getInstance().getMigrationTime().entrySet()) {
-				System.out.println("SmartThing" + test.getKey() + ": "
-					+ MyStatistics.getInstance().getMigrationTime().get(test.getKey()) + " - Max: "
-					+ MyStatistics.getInstance().getMaxMigrationTime().get(test.getKey()));
-				tempoMigracaoMax = Math.max(tempoMigracaoMax, MyStatistics.getInstance()
-					.getMaxMigrationTime().get(test.getKey()));
-			}
-						
-			printResults("Average of Time of Migrations;"
-					+ MyStatistics.getInstance().getAverageMigrationTime()
-					, resultFileName);
-			
-			printResults("Hightest Time of Migrations;" + tempoMigracaoMax, resultFileName);
-						
-			
-			
-			
-			//Average of Downtime
-			printResults("Average of Downtime;" + String.valueOf(MyStatistics.getInstance().getAverageDowntime()),
-					resultFileName);
-			
-
-			//Max Downtime
-			double tempoDowntimeMax = 0.0;
-			for (Entry<Integer, Double> test : MyStatistics.getInstance().getDowntime().entrySet()) {
-				System.out.println("SmartThing" + test.getKey() + ": "
-					+ MyStatistics.getInstance().getDowntime().get(test.getKey()) + " - Max: "
-					+ MyStatistics.getInstance().getMaxDowntime().get(test.getKey()));
-				tempoDowntimeMax += MyStatistics.getInstance().getMaxDowntime().get(test.getKey());
-			}
-			
-			printResults("Max Downtime;" + tempoDowntimeMax, resultFileName);
-			
-			
-			//Tuple lost
-			printResults("Tuple lost;" + (((double) MyStatistics.getInstance().getMyCountLostTuple() / MyStatistics
-					.getInstance().getMyCountTotalTuple())) * 100 + "%",
+		
+		
+		printResults("Total consumido Coudlets;"
+				+ energyConsumedMean,
 				resultFileName);
+		printResults("Coudlets averageEnergyHistoryDevice;"
+				+ String.valueOf(energyConsumedMean / j),
+				resultFileName);
+		
+		
+		
+		
+		///AP DEVICES ENERGY CONSUMPTION");
+		energyConsumedMean = 0.0;
+		for (FogDevice apDevice : getApDevices()) {
+			System.out.println(apDevice.getName() + ": Energy Consumed = "
+				+ apDevice.getEnergyConsumption());
+			energyConsumedMean += apDevice.getEnergyConsumption();
+			j++;
+		}
+		
+		
+		printResults("Total consumido AP(AP DEVICES);"
+				+ energyConsumedMean,
+				resultFileName);
+		printResults("AP DEVICES averageEnergyHistoryDevice;"
+				+ String.valueOf(energyConsumedMean / j),
+				resultFileName);
+		
+		
+		
+		
+		//SMARTTHINGS ENERGY CONSUMPTION");			
+		energyConsumedMean = 0.0;
+		for (FogDevice mobileDevice : getSmartThings()) {
 			
-			printResults("Tuple lost;" + MyStatistics.getInstance().getMyCountLostTuple(), resultFileName);
-			printResults("Total tuple;" + MyStatistics.getInstance().getMyCountTotalTuple(), resultFileName);
-			//End==============MIGRATIONS================="/
 			
-				
+			printResults( "mobileDevice:"+ mobileDevice.getName() + ": Power = ;"
+					+ mobileDevice.getHost().getPower(),
+					resultFileName);
 			
-	}
+			printResults( "mobileDevice:"+ mobileDevice.getName() + ": Energy Consumed;"
+					+ mobileDevice.getEnergyConsumption(),
+					resultFileName);
+		}
+		
+		for (int i = 0; i < MyStatistics.getInstance().getPowerHistory().size(); i++) {
+			
+			printResults( "SmartThing(" + i + ") Power;"
+					+ MyStatistics.getInstance().getPowerHistory().get(i),
+					resultFileName);
+			
+		}
+		
+		
+		for (int i = 0; i < MyStatistics.getInstance().getEnergyHistory().size(); i++) {
+			
+			energyConsumedMean += MyStatistics.getInstance().getEnergyHistory().get(i);
+			
+			printResults( "SmartThing(" + i + ") Energy Consumed;"
+					+ MyStatistics.getInstance().getEnergyHistory().get(i),
+					resultFileName);
+		}
+		//End=========CLOUDLETS ENERGY CONSUMPTION"==========
+		
+		
+		
+		 
+	
+		//"Begin=============NETWORK USAGE==============="/
+		
+		double deviceNetworkUsage = NetworkUsageMonitor.getNetworkUsage()
+			- NetworkUsageMonitor.getNetWorkUsageInMigration();
+		
+					
+		printResults("VM data transferred in migration;"
+				+ NetworkUsageMonitor.getVMTransferredData(),
+				resultFileName);
+		
+		printResults("getVMTransferredData / CloudSim.clock;"
+				+ String.valueOf(NetworkUsageMonitor.getVMTransferredData() / CloudSim.clock()),
+				resultFileName);
+		
+		
+		
+		/////
+		printResults("Device's network usage;"
+				+ deviceNetworkUsage,
+				resultFileName);
+		
+		printResults("deviceNetworkUsage / CloudSim.clock;"
+				+ String.valueOf(deviceNetworkUsage / CloudSim.clock()),
+				resultFileName);
+		
+		
+		
+		
+		
+		//////
+		printResults("Migration' network usage (total);"
+				+  NetworkUsageMonitor.getNetWorkUsageInMigration(),
+				resultFileName);
+		
+		printResults("Migration' network usage (mean);"
+				+  NetworkUsageMonitor.getNetWorkUsageInMigration()
+				/ MyStatistics.getInstance().getTotalMigrations(),
+				resultFileName);
+		
+		printResults("getNetWorkUsageInMigration / CloudSim.clock;"
+				+  String.valueOf(NetworkUsageMonitor.getNetWorkUsageInMigration() / CloudSim.clock()),
+				resultFileName);
+		
+		
+		//////
+		printResults("Total network usage;" + NetworkUsageMonitor.getNetworkUsage(), resultFileName);
+		printResults("getNetworkUsage() / CloudSim.clock);" + String.valueOf(NetworkUsageMonitor.getNetworkUsage() / CloudSim.clock()), resultFileName);
+		printResults("CloudSim.clock;" + CloudSim.clock(), resultFileName);
+		
+		//"End=============NETWORK USAGE==============="/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//Begin==============MIGRATIONS================="/
+		printResults("Total of migrations;" + MyStatistics.getInstance().getTotalMigrations(), resultFileName);
+		
+		printResults("Total of handoff;" + MyStatistics.getInstance().getTotalHandoff(), resultFileName);
+		printResults("Different Cloudlets reached along the user's path;" +  MyStatistics.getInstance().getMyCountLowestLatency(), resultFileName);
+		
+			
+		
+
+		printResults("Average of without connection;"
+				+ MyStatistics.getInstance().getAverageWithoutConnection(),
+				resultFileName);
+					
+
+		printResults("Average of without Vm;"
+				+ MyStatistics.getInstance().getAverageWithoutVmTime(),
+				resultFileName);
+		
+		
+		
+
+		printResults("Average of delay after new Connectionl"
+				+ MyStatistics.getInstance().getAverageDelayAfterNewConnection(), resultFileName);
+		
+		
+		double tempoMigracaoMax = 0.0;
+		for (Entry<Integer, Double> test : MyStatistics.getInstance().getMigrationTime().entrySet()) {
+			System.out.println("SmartThing" + test.getKey() + ": "
+				+ MyStatistics.getInstance().getMigrationTime().get(test.getKey()) + " - Max: "
+				+ MyStatistics.getInstance().getMaxMigrationTime().get(test.getKey()));
+			tempoMigracaoMax = Math.max(tempoMigracaoMax, MyStatistics.getInstance()
+				.getMaxMigrationTime().get(test.getKey()));
+		}
+					
+		printResults("Average of Time of Migrations;"
+				+ MyStatistics.getInstance().getAverageMigrationTime()
+				, resultFileName);
+		
+		printResults("Hightest Time of Migrations;" + tempoMigracaoMax, resultFileName);
+					
+		
+		
+		
+		//Average of Downtime
+		printResults("Average of Downtime;" + String.valueOf(MyStatistics.getInstance().getAverageDowntime()),
+				resultFileName);
+		
+
+		//Max Downtime
+		double tempoDowntimeMax = 0.0;
+		for (Entry<Integer, Double> test : MyStatistics.getInstance().getDowntime().entrySet()) {
+			System.out.println("SmartThing" + test.getKey() + ": "
+				+ MyStatistics.getInstance().getDowntime().get(test.getKey()) + " - Max: "
+				+ MyStatistics.getInstance().getMaxDowntime().get(test.getKey()));
+			tempoDowntimeMax += MyStatistics.getInstance().getMaxDowntime().get(test.getKey());
+		}
+		
+		printResults("Max Downtime;" + tempoDowntimeMax, resultFileName);
+		
+		
+		//Tuple lost
+		printResults("Tuple lost;" + (((double) MyStatistics.getInstance().getMyCountLostTuple() / MyStatistics
+				.getInstance().getMyCountTotalTuple())) * 100 + "%",
+			resultFileName);
+		
+		printResults("Tuple lost;" + MyStatistics.getInstance().getMyCountLostTuple(), resultFileName);
+		printResults("Total tuple;" + MyStatistics.getInstance().getMyCountTotalTuple(), resultFileName);
+		//End==============MIGRATIONS================="/
+		
+			
+		
+}
+
+	
 	
 	public void submitApplication(Application application, int delay) {
 		FogUtils.appIdToGeoCoverageMap.put(application.getAppId(), application.getGeoCoverage());

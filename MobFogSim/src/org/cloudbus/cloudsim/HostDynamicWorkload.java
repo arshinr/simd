@@ -208,7 +208,8 @@ public class HostDynamicWorkload extends Host {
 	 */
 	public double getUtilizationOfCpu() {
 		double utilization = getUtilizationMips() / getTotalMips();
-		if (utilization > 1 && utilization < 1.01) {
+		if (utilization > 1 ) //&& utilization < 1.01
+		{
 			utilization = 1;
 		}
 		else if (utilization > 1.01)
@@ -224,7 +225,8 @@ public class HostDynamicWorkload extends Host {
 	 */
 	public double getPreviousUtilizationOfCpu() {
 		double utilization = getPreviousUtilizationMips() / getTotalMips();
-		if (utilization > 1 && utilization < 1.01) {
+		if (utilization > 1)  //&& utilization < 1.01
+		{
 			utilization = 1;
 		}
 		return utilization;
