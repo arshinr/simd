@@ -1,0 +1,2 @@
+7	263000.0	7330	3294	3	15	AccessPoint63 [serverCloulet=ServerCloudlet63]	AccessPoint62 [serverCloulet=ServerCloudlet62]
+7	414000.0	7636	2645	3	19	AccessPoint62 [serverCloulet=ServerCloudlet62]	AccessPoint74 [serverCloulet=ServerCloudlet74]

@@ -186,7 +186,7 @@ public class NextStep {
 				System.out.println(st.getMyId() + "\t" + st.getCoord().getCoordX() + "\t"
 					+ st.getCoord().getCoordY() + "\t" + CloudSim.clock() + "\t"
 					+ Calendar.getInstance().getTime());
-				saveMobility(st);
+//				saveMobility(st);
 			}
 		}
 	}

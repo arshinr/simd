@@ -67,18 +67,18 @@ public class Actuator extends SimEntity {
 	}
 
 	public void printResults(String a, String filename) {
-		try (FileWriter fw1 = new FileWriter(filename, true);
-			BufferedWriter bw1 = new BufferedWriter(fw1);
-			PrintWriter out1 = new PrintWriter(bw1))
-		{
-			out1.println(a);
-		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+//		try (FileWriter fw1 = new FileWriter(filename, true);
+//			BufferedWriter bw1 = new BufferedWriter(fw1);
+//			PrintWriter out1 = new PrintWriter(bw1))
+//		{
+//			out1.println(a);
+//		} catch (UnsupportedEncodingException e) {
+//			e.printStackTrace();
+//		} catch (FileNotFoundException e) {
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 	}
 
 	private void processTupleArrival(SimEvent ev) {
@@ -157,9 +157,9 @@ public class Actuator extends SimEntity {
 						}
 					}
 
-					MyStatistics.getInstance().putLatencyFileValue(delay, CloudSim.clock(),
-						app.getAppId(), getMyId(), st.getVmLocalServerCloudlet().getName(),
-						tuple.getTupleType());
+//					MyStatistics.getInstance().putLatencyFileValue(delay, CloudSim.clock(),
+//						app.getAppId(), getMyId(), st.getVmLocalServerCloudlet().getName(),
+//						tuple.getTupleType());
 					if (delay > TimeKeeper.getInstance().getMaxLoopExecutionTime()
 						.get(loop.getLoopId())) {
 						TimeKeeper.getInstance().getMaxLoopExecutionTime()
@@ -173,7 +173,7 @@ public class Actuator extends SimEntity {
 						.put(loop.getLoopId(), newAverage);
 					TimeKeeper.getInstance().getLoopIdToCurrentNum()
 						.put(loop.getLoopId(), currentCount + 1);
-					printResults(String.valueOf(delay), loop.getLoopId() + "LoopId.txt");
+//					printResults(String.valueOf(delay), loop.getLoopId() + "LoopId.txt");
 					break;
 				}
 			}

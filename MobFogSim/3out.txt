@@ -1,0 +1,4 @@
+3 Position: 7459, 5746 Direction: 3 Speed: 0
+Source AP: null Dest AP: null Host: 148
+Local server: null  Apps null Map null
+Dest server: null Apps: null Map: null

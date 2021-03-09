@@ -1,0 +1,1 @@
+8	423000.0	5781	7034	6	14	AccessPoint65 [serverCloulet=ServerCloudlet65]	AccessPoint53 [serverCloulet=ServerCloudlet53]

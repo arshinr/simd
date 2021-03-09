@@ -1,0 +1,4 @@
+4 Position: 7031, 4562 Direction: 2 Speed: 0
+Source AP: null Dest AP: null Host: 149
+Local server: null  Apps null Map null
+Dest server: null Apps: null Map: null

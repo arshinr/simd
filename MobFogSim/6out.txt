@@ -1,0 +1,4 @@
+6 Position: 8881, 3418 Direction: 3 Speed: 0
+Source AP: null Dest AP: null Host: 151
+Local server: null  Apps null Map null
+Dest server: null Apps: null Map: null

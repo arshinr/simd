@@ -1,0 +1,39 @@
+Total consumido Coudlets;3.840021737658163E10
+Coudlets averageEnergyHistoryDevice;2.666681762262613E8
+Total consumido AP(AP DEVICES);28800.0
+AP DEVICES averageEnergyHistoryDevice;100.0
+SmartThing(0) Power;82.44
+SmartThing(1) Power;82.44
+SmartThing(2) Power;82.44
+SmartThing(3) Power;82.44
+SmartThing(4) Power;82.44
+SmartThing(5) Power;82.44
+SmartThing(0) Energy Consumed;5.860662985780746E7
+SmartThing(1) Energy Consumed;5.5755745323277235E7
+SmartThing(2) Energy Consumed;2.603811399223612E8
+SmartThing(3) Energy Consumed;2.500115838965953E8
+SmartThing(4) Energy Consumed;1.7593997125073764E8
+SmartThing(5) Energy Consumed;2.3109310830367018E7
+VM data transferred in migration;2432.0
+getVMTransferredData / CloudSim.clock;7.720634920634921E-4
+Device's network usage;3.19427808E8
+deviceNetworkUsage / CloudSim.clock;101.40565333333333
+Migration' network usage (total);2.6471424583885475E10
+Migration' network usage (mean);2.0362634295296519E9
+getNetWorkUsageInMigration / CloudSim.clock;8403.626852027135
+Total network usage;2.6790852391885475E10
+getNetworkUsage() / CloudSim.clock);8505.032505360468
+CloudSim.clock;3150000.0
+Total of migrations;13
+Total of handoff;43
+Different Cloudlets reached along the user's path;42
+Average of without connection;1055.8128690108501
+Average of without Vm;427179.79161684995
+Average of delay after new Connectionl466031.3979159582
+Average of Time of Migrations;227812.53062305835
+Hightest Time of Migrations;235212.86030036779
+Average of Downtime;11390.626531152919
+Max Downtime;58344.05220021959
+Tuple lost;0.06868904913275947%
+Tuple lost;4992
+Total tuple;7267534

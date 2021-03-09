@@ -1,0 +1,2 @@
+4	369000.0	7607	3768	1	12	AccessPoint63 [serverCloulet=ServerCloudlet63]	AccessPoint75 [serverCloulet=ServerCloudlet75]
+4	530000.0	8802	3455	2	12	AccessPoint75 [serverCloulet=ServerCloudlet75]	AccessPoint87 [serverCloulet=ServerCloudlet87]
