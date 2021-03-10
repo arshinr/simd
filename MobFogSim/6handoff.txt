@@ -1,2 +1,2 @@
-6	132000.0	9465	3050	2	10	AccessPoint87 [serverCloulet=ServerCloudlet87]	AccessPoint86 [serverCloulet=ServerCloudlet86]
-6	307000.0	10255	2365	2	10	AccessPoint86 [serverCloulet=ServerCloudlet86]	AccessPoint98 [serverCloulet=ServerCloudlet98]
+6	150000.0	9717	2803	6	13	AccessPoint98 [serverCloulet=ServerCloudlet98]	AccessPoint86 [serverCloulet=ServerCloudlet86]
+6	150000.0	9717	2803	6	13	AccessPoint98 [serverCloulet=ServerCloudlet98]	AccessPoint86 [serverCloulet=ServerCloudlet86]
