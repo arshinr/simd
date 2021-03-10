@@ -503,7 +503,6 @@ public class AppExample {
 		CloudSim.startSimulation();
 		System.out.println("Simulation over");
 		CloudSim.stopSimulation();
-		
 	}
 
 	private static void readMoblityData() {
