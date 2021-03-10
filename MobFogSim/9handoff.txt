@@ -1,0 +1,7 @@
+9	423000.0	5781	7034	6	14	AccessPoint65 [serverCloulet=ServerCloudlet65]	AccessPoint53 [serverCloulet=ServerCloudlet53]
+9	616000.0	6174	6188	1	8	AccessPoint53 [serverCloulet=ServerCloudlet53]	AccessPoint65 [serverCloulet=ServerCloudlet65]
+9	770000.0	6391	5751	2	8	AccessPoint65 [serverCloulet=ServerCloudlet65]	AccessPoint64 [serverCloulet=ServerCloudlet64]
+9	1052000.0	6967	4420	3	10	AccessPoint64 [serverCloulet=ServerCloudlet64]	AccessPoint63 [serverCloulet=ServerCloudlet63]
+9	1190000.0	7051	4897	7	14	AccessPoint63 [serverCloulet=ServerCloudlet63]	AccessPoint64 [serverCloulet=ServerCloudlet64]
+9	1368000.0	7639	5352	1	14	AccessPoint64 [serverCloulet=ServerCloudlet64]	AccessPoint76 [serverCloulet=ServerCloudlet76]
+9	1755000.0	8463	6193	7	14	AccessPoint76 [serverCloulet=ServerCloudlet76]	AccessPoint77 [serverCloulet=ServerCloudlet77]
