@@ -448,6 +448,26 @@ public class MobileController extends SimEntity {
 											+ delayProcess, MobileEvents.SET_MIG_STATUS_TRUE, st);
 									}
 								}
+								
+								if (st.isMirrorStatus() && !st.isMigStatus()) {
+									if (!st.isMigStatusLive()) {
+										st.setMigStatusLive(true);
+										double newMigTime = migrationTimeToLiveMigration(st);
+										if (newMigTime == 0) {
+											newMigTime = ((st.getVmMobileDevice().getHost()
+												.getRamProvisioner().getUsedRam() * 8 * 1024 * 1024) / st
+												.getVmLocalServerCloudlet().getUplinkBandwidth()) * 1000.0;
+										}
+										double delayProcess = st.getVmLocalServerCloudlet()
+											.getCharacteristics().getCpuTime((st.getVmMobileDevice()
+												.getSize() * 1024 * 1024 * 8) * 0.7, 0.0);// the connection already opened
+										st.setTimeFinishDeliveryVm(-1.0);
+										MyStatistics.getInstance().startWithoutVmTime(
+											st.getMyId(),CloudSim.clock());
+										send(st.getVmLocalServerCloudlet().getId(), newMigTime
+											+ delayProcess, MobileEvents.SET_MIG_STATUS_TRUE, st);
+									}
+								}
 							}
 
 							send(st.getSourceAp().getId(), handoffTime, MobileEvents.START_HANDOFF,st);

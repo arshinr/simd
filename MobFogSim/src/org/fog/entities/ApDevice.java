@@ -86,6 +86,7 @@ public class ApDevice extends FogDevice {
 			smartThing.setMigStatus(false);
 			smartThing.setPostCopyStatus(false);
 			smartThing.setPreCopyStatus(false);
+			smartThing.setMirrorStatus(false);
 			smartThing.setMigStatusLive(false);
 		}
 		smartThing.setTimeFinishHandoff(CloudSim.clock());

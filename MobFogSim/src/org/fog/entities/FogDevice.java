@@ -712,6 +712,7 @@ public class FogDevice extends PowerDatacenter {
 			smartThing.setMigStatus(false);
 			smartThing.setPostCopyStatus(false);
 			smartThing.setPreCopyStatus(false);
+			smartThing.setMirrorStatus(false);
 			smartThing.setMigStatusLive(false);
 			if (MyStatistics.getInstance().getInitialWithoutVmTime().get(smartThing.getMyId()) != null) {
 				MyStatistics.getInstance().finalWithoutVmTime(smartThing.getMyId(), CloudSim.clock());
@@ -746,6 +747,7 @@ public class FogDevice extends PowerDatacenter {
 		smartThing.setMigStatus(false);
 		smartThing.setPostCopyStatus(false);
 		smartThing.setPreCopyStatus(false);
+		smartThing.setMirrorStatus(false);
 		smartThing.setMigStatusLive(false);
 		smartThing.setLockedToMigration(false);
 		smartThing.setTimeFinishDeliveryVm(-1.0);
@@ -869,6 +871,7 @@ public class FogDevice extends PowerDatacenter {
 				smartThing.setMigStatus(false);
 				smartThing.setPostCopyStatus(false);
 				smartThing.setPreCopyStatus(false);
+				smartThing.setMirrorStatus(false);
 				smartThing.setMigStatusLive(false);
 				if (MyStatistics.getInstance().getInitialWithoutVmTime().get(smartThing.getMyId()) != null) {
 					MyStatistics.getInstance().finalWithoutVmTime(smartThing.getMyId(), CloudSim.clock());
@@ -958,6 +961,9 @@ public class FogDevice extends PowerDatacenter {
 					else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_PRECOPY) {
 						smartThing.setPreCopyStatus(true);
 						smartThing.setTimeStartLiveMigration(CloudSim.clock());
+					}else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_MIRROR) {
+						smartThing.setMirrorStatus(true);
+						smartThing.setTimeStartLiveMigration(CloudSim.clock());
 					}
 					else {
 						smartThing.setMigStatus(true);
@@ -982,6 +988,7 @@ public class FogDevice extends PowerDatacenter {
 				smartThing.setMigStatus(false);
 				smartThing.setPostCopyStatus(false);
 				smartThing.setPreCopyStatus(false);
+				smartThing.setMirrorStatus(false);
 				smartThing.setMigStatusLive(false);
 				smartThing.setLockedToMigration(false);
 				smartThing.setTimeFinishDeliveryVm(-1.0);

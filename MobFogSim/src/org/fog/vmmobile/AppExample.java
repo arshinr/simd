@@ -63,6 +63,7 @@ import org.fog.vmmigration.CompleteVM;
 import org.fog.vmmigration.ContainerVM;
 import org.fog.vmmigration.DecisionMigration;
 import org.fog.vmmigration.LiveMigration;
+import org.fog.vmmigration.LiveMigrationMirror;
 import org.fog.vmmigration.LiveMigrationPrecopy;
 import org.fog.vmmigration.LowestDistBwSmartThingAP;
 import org.fog.vmmigration.LowestDistBwSmartThingServerCloudlet;
@@ -676,6 +677,8 @@ public class AppExample {
 			migrationTechnique = new LiveMigration(getMigPointPolicy());
 		} else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_PRECOPY) {
 			migrationTechnique = new LiveMigrationPrecopy(getMigPointPolicy());
+		} else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_MIRROR) {
+			migrationTechnique = new LiveMigrationMirror(getMigPointPolicy());
 		}
 
 		DeterministicDistribution distribution0 = new DeterministicDistribution(
@@ -800,6 +803,8 @@ public class AppExample {
 			beforeMigration = new PrepareLiveMigration();
 		}else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_PRECOPY) {
 			beforeMigration = new PrepareLiveMigration();
+		}else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_MIRROR) {
+			beforeMigration = new PrepareLiveMigration();
 		}
 
 		FogLinearPowerModel powerModel = new FogLinearPowerModel(107.339d, 83.433d);
@@ -906,6 +911,8 @@ public class AppExample {
 				} else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION) {
 					beforeMigration = new PrepareLiveMigration();
 				} else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_PRECOPY) {
+					beforeMigration = new PrepareLiveMigration();
+				} else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_MIRROR) {
 					beforeMigration = new PrepareLiveMigration();
 				}
 
