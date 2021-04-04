@@ -106,6 +106,7 @@ public class MobileDevice extends FogDevice {
 		setDestinationAp(null);
 		setVmMobileDevice(null);
 		setMigTime(0);
+		sethandoffTime(0);
 		setMigStatus(false);
 		setMigStatusLive(false);
 		setPostCopyStatus(false);
@@ -137,6 +138,7 @@ public class MobileDevice extends FogDevice {
 		setDestinationAp(null);
 		setVmMobileDevice(null);
 		setMigTime(0);
+		sethandoffTime(0);
 		setMigStatus(false);
 		setMigStatusLive(false);
 		setPostCopyStatus(false);
@@ -178,6 +180,7 @@ public class MobileDevice extends FogDevice {
 		setDestinationAp(null);
 		setVmMobileDevice(null);
 		setMigTime(0);
+		sethandoffTime(0);
 		setMigStatus(false);
 		setMigStatusLive(false);
 		setPostCopyStatus(false);
