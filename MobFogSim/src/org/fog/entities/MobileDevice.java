@@ -41,6 +41,7 @@ public class MobileDevice extends FogDevice {
 	private ApDevice destinationAp;
 	private Vm vmMobileDevice;
 	private double migTime;
+	private double handoffTime;
 	private boolean migPoint;
 	private boolean migZone;
 	private Set<MobileSensor> sensors;// Set of Sensors
@@ -502,6 +503,14 @@ public class MobileDevice extends FogDevice {
 
 	public void setMigTime(double d) {
 		this.migTime = d;
+	}
+
+	public double gethandoffTime() {
+		return handoffTime;
+	}
+
+	public void sethandoffTime(double d) {
+		this.handoffTime = d;
 	}
 
 	public Set<MobileSensor> getSensors() {

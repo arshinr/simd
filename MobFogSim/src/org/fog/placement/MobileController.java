@@ -467,6 +467,9 @@ public class MobileController extends SimEntity {
 											st.getMyId(),CloudSim.clock());
 										send(st.getVmLocalServerCloudlet().getId(), newMigTime
 											+ delayProcess, MobileEvents.SET_MIG_STATUS_TRUE, st);
+										
+										
+										st.sethandoffTime(handoffTime + delayConnection);
 									}
 								}
 							}

@@ -53,6 +53,7 @@ import org.fog.vmmigration.CompleteVM;
 import org.fog.vmmigration.ContainerVM;
 import org.fog.vmmigration.DecisionMigration;
 import org.fog.vmmigration.LiveMigration;
+import org.fog.vmmigration.LiveMigrationMirror;
 import org.fog.vmmigration.LiveMigrationPrecopy;
 import org.fog.vmmigration.MyStatistics;
 import org.fog.vmmigration.Service;
@@ -923,6 +924,10 @@ public class FogDevice extends PowerDatacenter {
 			else if (smartThing.getMigrationTechnique() instanceof LiveMigrationPrecopy) {
 				MyStatistics.getInstance().historyDowntime(smartThing.getMyId(),
 					smartThing.getMigTime() * 0.05);
+			}
+			else if (smartThing.getMigrationTechnique() instanceof LiveMigrationMirror) {
+				MyStatistics.getInstance().historyDowntime(smartThing.getMyId(),
+					smartThing.gethandoffTime());
 			}
 			
 			smartThing.setTimeFinishDeliveryVm(CloudSim.clock());
