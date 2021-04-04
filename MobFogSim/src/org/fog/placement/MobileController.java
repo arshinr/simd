@@ -44,6 +44,7 @@ import org.fog.utils.TimeKeeper;
 import org.fog.vmmigration.Migration;
 import org.fog.vmmigration.MyStatistics;
 import org.fog.vmmigration.NextStep;
+import org.fog.vmmobile.AppExample;
 import org.fog.vmmobile.LogMobile;
 import org.fog.vmmobile.constants.MaxAndMin;
 import org.fog.vmmobile.constants.MobileEvents;
@@ -881,8 +882,33 @@ public class MobileController extends SimEntity {
 	
 		  int iii;
 		
+		String policyName;
+		
+		switch(AppExample.getPolicyReplicaVM()) {
+		case 0 :
+			policyName="MIGRATION_COMPLETE_VM";
+			break;
+		case 1 :
+			policyName="MIGRATION_CONTAINER_VM";
+			break;
+		case 2 :
+			policyName="LIVE_MIGRATION_POSTCOPY";
+			break;
+		case 3 :
+			policyName="LIVE_MIGRATION_PRECOPY";
+			break;	
+		case 4 :
+			policyName="LIVE_MIGRATION_MIRROR";
+			break;	
+		default:
+			policyName="Not Set";
+			break;	
+		}
 		
 		
+		printResults("PolicyReplicaVM Mode;"
+					+ policyName,
+					resultFileName);
 		
 		/////////////////////////
 		double energyConsumedMean = 0.0;
@@ -892,10 +918,10 @@ public class MobileController extends SimEntity {
 		 
 		for (FogDevice fogDevice : getServerCloudlets()) {
 			if (fogDevice.getEnergyConsumption() != 5.8736831999993116E7) {
-				System.out.println(fogDevice.getName() + ": Power = "
-					+ fogDevice.getHost().getPower());
-				System.out.println(fogDevice.getName() + ": Energy Consumed = "
-					+ fogDevice.getEnergyConsumption());
+//				System.out.println(fogDevice.getName() + ": Power = "
+//					+ fogDevice.getHost().getPower());
+//				System.out.println(fogDevice.getName() + ": Energy Consumed = "
+//					+ fogDevice.getEnergyConsumption());
 				energyConsumedMean += fogDevice.getEnergyConsumption();
 				j++;
 			}
@@ -916,8 +942,8 @@ public class MobileController extends SimEntity {
 		///AP DEVICES ENERGY CONSUMPTION");
 		energyConsumedMean = 0.0;
 		for (FogDevice apDevice : getApDevices()) {
-			System.out.println(apDevice.getName() + ": Energy Consumed = "
-				+ apDevice.getEnergyConsumption());
+//			System.out.println(apDevice.getName() + ": Energy Consumed = "
+//				+ apDevice.getEnergyConsumption());
 			energyConsumedMean += apDevice.getEnergyConsumption();
 			j++;
 		}
