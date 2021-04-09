@@ -103,7 +103,9 @@ public class AppExample {
 	private static int seed;
 	private static Random rand;
 	static final boolean CLOUD = true;
-
+	private static long PeriodicTimeUp=1000;
+	private static long PeriodicTimeDown=2439;
+	
 	static final int numOfDepts = 1;
 	static final int numOfMobilesPerDept = 4;
 	static final double EEG_TRANSMISSION_TIME = 10;
@@ -186,6 +188,9 @@ public class AppExample {
 		setMobilityPredictionError(Integer.parseInt(args[8]));
 		setLatencyBetweenCloudlets(Double.parseDouble(args[9]));
 
+		setPeriodicTimeUp(Long.parseLong( args[10]));
+		setPeriodicTimeDown(Long.parseLong( args[11]));
+		
 		/**
 		 * STEP 2: CREATE ALL DEVICES -> example from: CloudSim - example5.java
 		 **/
@@ -1051,7 +1056,7 @@ public class AppExample {
 
 		// adding periodic edge (period=1000ms) from Concentration Calculator to
 		//Connector module carrying tuples of type PLAYER_GAME_STATE
-		application.addAppEdge(userVm.getName(), userVm.getName(), 1000, 966,
+		application.addAppEdge(userVm.getName(), userVm.getName(), getPeriodicTimeUp(), 966,
 			54, "PLAYER_GAME_STATE" + myId, Tuple.UP, AppEdge.MODULE);
 		// adding edge from Concentration Calculator to Client module carrying
 		//tuples of type CONCENTRATION
@@ -1059,7 +1064,7 @@ public class AppExample {
 			"CONCENTRATION" + myId, Tuple.DOWN, AppEdge.MODULE);
 		// adding periodic edge (period=1000ms) from Connector to Client module
 		//carrying tuples of type GLOBAL_GAME_STATE
-		application.addAppEdge(userVm.getName(), "client" + myId, 2439, 28,
+		application.addAppEdge(userVm.getName(), "client" + myId, getPeriodicTimeDown(), 28,
 			87, "GLOBAL_GAME_STATE" + myId, Tuple.DOWN, AppEdge.MODULE);
 		// adding edge from Client module to Display (actuator) carrying tuples
 		// of type SELF_STATE_UPDATE
@@ -1387,4 +1392,19 @@ public class AppExample {
 		AppExample.migrationAble = migrationAble;
 	}
 
+	public static long getPeriodicTimeUp() {
+		return PeriodicTimeUp;
+	}
+
+	public static void setPeriodicTimeUp(long PeriodicTime) {
+		AppExample.PeriodicTimeUp = PeriodicTime;
+	}
+
+	public static long getPeriodicTimeDown() {
+		return PeriodicTimeDown;
+	}
+
+	public static void setPeriodicTimeDown(long PeriodicTime) {
+		AppExample.PeriodicTimeDown = PeriodicTime;
+	}
 }
