@@ -149,6 +149,8 @@ public class AppExample {
 		 *  Tenth parameter: Positive negative Integer -> Base Network Latency between cloudlets
 		 */
 
+		
+		
 		Log.disable();
 
 		int numUser = 1; // number of cloud users
@@ -511,6 +513,10 @@ public class AppExample {
 		CloudSim.stopSimulation();
 	}
 
+	
+
+	
+	
 	private static void readMoblityData() {
 
 		File folder = new File("input");
