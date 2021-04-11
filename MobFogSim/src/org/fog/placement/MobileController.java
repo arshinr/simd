@@ -1240,6 +1240,10 @@ public class MobileController extends SimEntity {
 		header +="PolicyReplicaVM Mode;";
 		record +=policyName+ ";";
 		
+		header +="getMaxSmartThings;";
+		record += AppExample.getMaxSmartThings() + ";";
+		
+		
 		/*
 		 * printResults("PolicyReplicaVM Mode;" + policyName, resultFileName);
 		 */
