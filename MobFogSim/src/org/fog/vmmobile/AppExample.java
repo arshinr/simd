@@ -1038,6 +1038,35 @@ public class AppExample {
 	private static Application createApplication(String appId, int userId,
 		int myId, AppModule userVm) {
 
+		
+		long PeriodicTimeUp=getPeriodicTimeUp();
+		long PeriodicTimeDown=getPeriodicTimeDown();
+		
+		String policyName;
+		switch(AppExample.getPolicyReplicaVM()) {
+		case 0 :
+			policyName="MIGRATION_COMPLETE_VM";
+			break;
+		case 1 :
+			policyName="MIGRATION_CONTAINER_VM";
+			break;
+		case 2 :
+			policyName="LIVE_MIGRATION_POSTCOPY";
+			break;
+		case 3 :
+			policyName="LIVE_MIGRATION_PRECOPY";
+			break;	
+		case 4 :
+			policyName="LIVE_MIGRATION_MIRROR";
+			PeriodicTimeUp= PeriodicTimeUp/4;
+			PeriodicTimeDown= PeriodicTimeDown/4;
+			break;	
+		default:
+			policyName="Not Set";
+			break;	
+		}
+		
+		
 		// creates an empty application model (empty directed graph)
 		Application application = Application.createApplication(appId, userId);
 		// adding module Client to the application model
@@ -1062,7 +1091,7 @@ public class AppExample {
 
 		// adding periodic edge (period=1000ms) from Concentration Calculator to
 		//Connector module carrying tuples of type PLAYER_GAME_STATE
-		application.addAppEdge(userVm.getName(), userVm.getName(), getPeriodicTimeUp(), 966,
+		application.addAppEdge(userVm.getName(), userVm.getName(), PeriodicTimeUp, 966,
 			54, "PLAYER_GAME_STATE" + myId, Tuple.UP, AppEdge.MODULE);
 		// adding edge from Concentration Calculator to Client module carrying
 		//tuples of type CONCENTRATION
@@ -1070,7 +1099,7 @@ public class AppExample {
 			"CONCENTRATION" + myId, Tuple.DOWN, AppEdge.MODULE);
 		// adding periodic edge (period=1000ms) from Connector to Client module
 		//carrying tuples of type GLOBAL_GAME_STATE
-		application.addAppEdge(userVm.getName(), "client" + myId, getPeriodicTimeDown(), 28,
+		application.addAppEdge(userVm.getName(), "client" + myId, PeriodicTimeDown, 28,
 			87, "GLOBAL_GAME_STATE" + myId, Tuple.DOWN, AppEdge.MODULE);
 		// adding edge from Client module to Display (actuator) carrying tuples
 		// of type SELF_STATE_UPDATE
