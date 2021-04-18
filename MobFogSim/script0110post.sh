@@ -2,8 +2,9 @@
 #mkdir -p out/VM_Cold 
 #mkdir -p out/Complete_Container 
 #mkdir -p out/live 
+mkdir -p out/post
 #mkdir -p out/Pre 
-mkdir -p out/Migrror
+#mkdir -p out/Migrror
 #mkdir -p out/PRECOPYLIVE
 
 MaxNumberOfSmartthings=10
@@ -63,17 +64,17 @@ MaxNumberOfSmartthings=10
 # done
 
 #Migrror
-for STNumber in $(seq 1 $MaxNumberOfSmartthings)
-do
-		mkdir $STNumber
+# for STNumber in $(seq 1 $MaxNumberOfSmartthings)
+# do
+		# mkdir $STNumber
 
-		java -Xmx30g -Dfile.encoding=UTF-8 -classpath bin:jars/cloudsim-3.0.3-sources.jar:jars/cloudsim-3.0.3.jar:jars/cloudsim-examples-3.0.3-sources.jar:jars/cloudsim-examples-3.0.3.jar:jars/commons-math3-3.5/commons-math3-3.5.jar:jars/guava-18.0.jar:jars/json-simple-1.1.1.jar:jars/junit.jar:jars/org.hamcrest.core_1.3.0.v201303031735.jar org.fog.vmmobile.AppExample 1 290538 0 0 $STNumber 11 4 0 0 61 1000 2439
-#		java -Xmx30g -Dfile.encoding=UTF-8 -classpath ".\bin;.\jars\cloudsim-3.0.3.jar;.\jars\cloudsim-3.0.3-sources.jar;.\jars\cloudsim-examples-3.0.3.jar;.\jars\cloudsim-examples-3.0.3-sources.jar;.\jars\guava-18.0.jar;.\jars\json-simple-1.1.1.jar;.\jars\junit.jar;.\jars\org.hamcrest.core_1.3.0.v201303031735.jar;.\jars\commons-math3-3.5\commons-math3-3.5.jar" org.fog.vmmobile.AppExample 1 290538 0 0 $STNumber 11 3 0 0 61
+		# java -Xmx30g -Dfile.encoding=UTF-8 -classpath bin:jars/cloudsim-3.0.3-sources.jar:jars/cloudsim-3.0.3.jar:jars/cloudsim-examples-3.0.3-sources.jar:jars/cloudsim-examples-3.0.3.jar:jars/commons-math3-3.5/commons-math3-3.5.jar:jars/guava-18.0.jar:jars/json-simple-1.1.1.jar:jars/junit.jar:jars/org.hamcrest.core_1.3.0.v201303031735.jar org.fog.vmmobile.AppExample 1 290538 0 0 $STNumber 11 4 0 0 61 1000 2439
+# #		java -Xmx30g -Dfile.encoding=UTF-8 -classpath ".\bin;.\jars\cloudsim-3.0.3.jar;.\jars\cloudsim-3.0.3-sources.jar;.\jars\cloudsim-examples-3.0.3.jar;.\jars\cloudsim-examples-3.0.3-sources.jar;.\jars\guava-18.0.jar;.\jars\json-simple-1.1.1.jar;.\jars\junit.jar;.\jars\org.hamcrest.core_1.3.0.v201303031735.jar;.\jars\commons-math3-3.5\commons-math3-3.5.jar" org.fog.vmmobile.AppExample 1 290538 0 0 $STNumber 11 3 0 0 61
 
-		mv *.txt $STNumber
-		mv $STNumber out/Migrror/
+		# mv *.txt $STNumber
+		# mv $STNumber out/Migrror/
 	
-done
+# done
 
 # #PRECOPYLIVE
 # for STNumber in $(seq 1 $MaxNumberOfSmartthings)
@@ -87,3 +88,16 @@ done
 		# mv $STNumber out/PRECOPYLIVE/
 	
 # done
+
+#Post-copy
+for STNumber in $(seq 1 $MaxNumberOfSmartthings)
+do
+		mkdir $STNumber
+
+		java -Xmx30g -Dfile.encoding=UTF-8 -classpath bin:jars/cloudsim-3.0.3-sources.jar:jars/cloudsim-3.0.3.jar:jars/cloudsim-examples-3.0.3-sources.jar:jars/cloudsim-examples-3.0.3.jar:jars/commons-math3-3.5/commons-math3-3.5.jar:jars/guava-18.0.jar:jars/json-simple-1.1.1.jar:jars/junit.jar:jars/org.hamcrest.core_1.3.0.v201303031735.jar org.fog.vmmobile.AppExample 1 290538 0 0 $STNumber 11 2 0 0 61 1000 2439
+#		java -Xmx30g -Dfile.encoding=UTF-8 -classpath ".\bin;.\jars\cloudsim-3.0.3.jar;.\jars\cloudsim-3.0.3-sources.jar;.\jars\cloudsim-examples-3.0.3.jar;.\jars\cloudsim-examples-3.0.3-sources.jar;.\jars\guava-18.0.jar;.\jars\json-simple-1.1.1.jar;.\jars\junit.jar;.\jars\org.hamcrest.core_1.3.0.v201303031735.jar;.\jars\commons-math3-3.5\commons-math3-3.5.jar" org.fog.vmmobile.AppExample 1 290538 0 0 $STNumber 11 3 0 0 61
+
+		mv *.txt $STNumber
+		mv $STNumber out/post/
+	
+done
