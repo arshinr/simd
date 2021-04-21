@@ -43,11 +43,11 @@ In src/org/fog/vmmobile/AppExample.java, run as -> Java application
 *  Eighth parameter: Non-Negative Integer -> User Mobility prediction, in seconds
 *  Ninth parameter: Non-Negative Integer -> User Mobility prediction inaccuracy, in meters
 *  Tenth parameter: Positive negative Integer -> Base Network Latency between cloudlets
-*  Eleventh parameter: 1000
-*  Twelfth parameter: 2439
+*  Eleventh parameter: getPeriodicTimeUp
+*  Twelfth parameter: getPeriodicTimeDown
 
 Example
-1 290538 0 0 1 11 0 0 0 61
+1 290538 0 0 1 11 0 0 0 61 1000 2439
 
 
 ## Input
