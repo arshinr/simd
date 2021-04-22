@@ -448,7 +448,7 @@ public class MobileController extends SimEntity {
 										st.setTimeFinishDeliveryVm(-1.0);
 										MyStatistics.getInstance().startWithoutVmTime(
 											st.getMyId(),CloudSim.clock());
-										send(st.getVmLocalServerCloudlet().getId(), newMigTime
+										send(st.getVmLocalServerCloudlet().getId(), (newMigTime/2)
 											+ delayProcess, MobileEvents.SET_MIG_STATUS_TRUE, st);
 									}
 								}
@@ -468,11 +468,11 @@ public class MobileController extends SimEntity {
 										st.setTimeFinishDeliveryVm(-1.0);
 										MyStatistics.getInstance().startWithoutVmTime(
 											st.getMyId(),CloudSim.clock());
-										send(st.getVmLocalServerCloudlet().getId(), newMigTime
+										send(st.getVmLocalServerCloudlet().getId(), (newMigTime/3.5)
 											+ delayProcess, MobileEvents.SET_MIG_STATUS_TRUE, st);
 										
 										
-										st.sethandoffTime(handoffTime + delayConnection);
+										st.sethandoffTime((handoffTime + delayConnection)*3);
 									}
 								}
 							}

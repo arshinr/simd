@@ -40,7 +40,7 @@ public class LiveMigrationMirror implements VmMigrationTechnique {
 		smartThing
 			.setMigTime(migrationTimeFunction(smartThing.getVmMobileDevice().getSize()// vmSize
 				, bandwidth)
-				* 2.3
+				* 2.5
 				+ smartThing.getVmLocalServerCloudlet().getUplinkLatency() // Link Latency
 				+ NetworkTopology.getDelay(smartThing.getId(), smartThing
 					.getVmLocalServerCloudlet().getId())
