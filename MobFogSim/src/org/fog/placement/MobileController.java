@@ -326,8 +326,8 @@ public class MobileController extends SimEntity {
 			System.out.println("Size SmartThings: " + getSmartThings().size());
 			CloudSim.stopSimulation();
 			
+			//printMigrationsDetalis_CSV();
 			printMigrationsDetalis_CSV_2();
-			printMigrationsDetalis_CSV();
 			printTimeDetails();
 			printPowerDetails();
 			printCostDetails();
@@ -882,6 +882,7 @@ public class MobileController extends SimEntity {
 
 	}
 
+	
 	
 	public void printMigrationsDetalis_CSV() {
 		
@@ -1659,6 +1660,7 @@ public class MobileController extends SimEntity {
 		
 }
 
+	
 	
 	public void submitApplication(Application application, int delay) {
 		FogUtils.appIdToGeoCoverageMap.put(application.getAppId(), application.getGeoCoverage());

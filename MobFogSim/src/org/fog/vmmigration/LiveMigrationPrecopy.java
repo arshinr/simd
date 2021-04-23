@@ -40,7 +40,7 @@ public class LiveMigrationPrecopy implements VmMigrationTechnique {
 		smartThing
 			.setMigTime(migrationTimeFunction(smartThing.getVmMobileDevice().getSize()// vmSize
 				, bandwidth)
-				* 2.1
+				* 2.3
 				+ smartThing.getVmLocalServerCloudlet().getUplinkLatency() // Link Latency
 				+ NetworkTopology.getDelay(smartThing.getId(), smartThing
 					.getVmLocalServerCloudlet().getId())

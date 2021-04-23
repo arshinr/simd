@@ -106,7 +106,6 @@ public class MobileDevice extends FogDevice {
 		setDestinationAp(null);
 		setVmMobileDevice(null);
 		setMigTime(0);
-		sethandoffTime(0);
 		setMigStatus(false);
 		setMigStatusLive(false);
 		setPostCopyStatus(false);
@@ -138,7 +137,6 @@ public class MobileDevice extends FogDevice {
 		setDestinationAp(null);
 		setVmMobileDevice(null);
 		setMigTime(0);
-		sethandoffTime(0);
 		setMigStatus(false);
 		setMigStatusLive(false);
 		setPostCopyStatus(false);
@@ -180,7 +178,6 @@ public class MobileDevice extends FogDevice {
 		setDestinationAp(null);
 		setVmMobileDevice(null);
 		setMigTime(0);
-		sethandoffTime(0);
 		setMigStatus(false);
 		setMigStatusLive(false);
 		setPostCopyStatus(false);
@@ -659,7 +656,7 @@ public class MobileDevice extends FogDevice {
 	public void setPreCopyStatus(boolean preCopyStatus) {
 		this.preCopyStatus = preCopyStatus;
 	}
-
+	
 	public boolean isMirrorStatus() {
 		return mirrorStatus;
 	}
@@ -667,7 +664,6 @@ public class MobileDevice extends FogDevice {
 	public void setMirrorStatus(boolean mirrorStatus) {
 		this.mirrorStatus = mirrorStatus;
 	}
-	
 	public double getTimeStartLiveMigration() {
 		return timeStartLiveMigration;
 	}

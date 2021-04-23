@@ -105,7 +105,7 @@ public class AppExample {
 	static final boolean CLOUD = true;
 	private static long PeriodicTimeUp=1000;
 	private static long PeriodicTimeDown=2439;
-	
+
 	static final int numOfDepts = 1;
 	static final int numOfMobilesPerDept = 4;
 	static final double EEG_TRANSMISSION_TIME = 10;
@@ -149,8 +149,6 @@ public class AppExample {
 		 *  Tenth parameter: Positive negative Integer -> Base Network Latency between cloudlets
 		 */
 
-		
-		
 		Log.disable();
 
 		int numUser = 1; // number of cloud users
@@ -192,7 +190,7 @@ public class AppExample {
 
 		setPeriodicTimeUp(Long.parseLong( args[10]));
 		setPeriodicTimeDown(Long.parseLong( args[11]));
-		
+
 		/**
 		 * STEP 2: CREATE ALL DEVICES -> example from: CloudSim - example5.java
 		 **/
@@ -513,10 +511,6 @@ public class AppExample {
 		CloudSim.stopSimulation();
 	}
 
-	
-
-	
-	
 	private static void readMoblityData() {
 
 		File folder = new File("input");
@@ -1058,15 +1052,14 @@ public class AppExample {
 			break;	
 		case 4 :
 			policyName="LIVE_MIGRATION_MIRROR";
-			PeriodicTimeUp= PeriodicTimeUp/4;
-			PeriodicTimeDown= PeriodicTimeDown/4;
+			PeriodicTimeUp=(long)((double)PeriodicTimeUp*0.8);
+			PeriodicTimeDown=(long)((double)PeriodicTimeDown*0.8);
 			break;	
 		default:
 			policyName="Not Set";
 			break;	
 		}
-		
-		
+
 		// creates an empty application model (empty directed graph)
 		Application application = Application.createApplication(appId, userId);
 		// adding module Client to the application model
@@ -1442,4 +1435,5 @@ public class AppExample {
 	public static void setPeriodicTimeDown(long PeriodicTime) {
 		AppExample.PeriodicTimeDown = PeriodicTime;
 	}
+
 }

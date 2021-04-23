@@ -966,7 +966,9 @@ public class FogDevice extends PowerDatacenter {
 					else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_PRECOPY) {
 						smartThing.setPreCopyStatus(true);
 						smartThing.setTimeStartLiveMigration(CloudSim.clock());
-					}else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_MIRROR) {
+					}
+
+					else if (getPolicyReplicaVM() == Policies.LIVE_MIGRATION_MIRROR) {
 						smartThing.setMirrorStatus(true);
 						smartThing.setTimeStartLiveMigration(CloudSim.clock());
 					}
