@@ -48,7 +48,7 @@ MaxNumberOfSmartthings=10
 	
 # done
 
-#Migrror
+#Pre-Copy
 for STNumber in $(seq 1 $MaxNumberOfSmartthings)
 do
 		mkdir $STNumber
