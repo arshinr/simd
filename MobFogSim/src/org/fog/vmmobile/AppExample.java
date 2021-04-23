@@ -1058,8 +1058,8 @@ public class AppExample {
 			break;	
 		case 4 :
 			policyName="LIVE_MIGRATION_MIRROR";
-			PeriodicTimeUp= (long)((double)PeriodicTimeUp * 0.8);
-			PeriodicTimeDown= (long)((double)PeriodicTimeDown * 0.8);
+			PeriodicTimeUp= PeriodicTimeUp/4;
+			PeriodicTimeDown= PeriodicTimeDown/4;
 			break;	
 		default:
 			policyName="Not Set";
