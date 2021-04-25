@@ -57,6 +57,7 @@ import org.fog.vmmigration.LiveMigrationMirror;
 import org.fog.vmmigration.LiveMigrationPrecopy;
 import org.fog.vmmigration.MyStatistics;
 import org.fog.vmmigration.Service;
+import org.fog.vmmobile.AppExample;
 import org.fog.vmmobile.LogMobile;
 import org.fog.vmmobile.constants.MobileEvents;
 import org.fog.vmmobile.constants.Policies;
@@ -1065,8 +1066,35 @@ public class FogDevice extends PowerDatacenter {
 			+ st.getSourceAp().getName() + ": " +
 			Distances.checkDistance(st.getCoord(), st.getSourceAp().getCoord())
 			+ " Migration time: " + st.getMigTime());
+		
+		double Overload =1;
+
+		String policyName;
+		switch(AppExample.getPolicyReplicaVM()) {
+		case 0 :
+			policyName="MIGRATION_COMPLETE_VM";
+			break;
+		case 1 :
+			policyName="MIGRATION_CONTAINER_VM";
+			break;
+		case 2 :
+			policyName="LIVE_MIGRATION_POSTCOPY";
+			break;
+		case 3 :
+			policyName="LIVE_MIGRATION_PRECOPY";
+			break;	
+		case 4 :
+			policyName="LIVE_MIGRATION_MIRROR";
+			Overload=1.02;
+			break;	
+		default:
+			policyName="Not Set";
+			break;	
+		}
+		
+		
 		NetworkUsageMonitor.migrationTrafficUsage(st.getVmLocalServerCloudlet()
-			.getUplinkBandwidth(), st.getVmMobileDevice().getSize());
+			.getUplinkBandwidth(), st.getVmMobileDevice().getSize()*Overload);
 		NetworkUsageMonitor.migrationVMTransferredData(st.getVmMobileDevice().getSize());
 		try (FileWriter fw = new FileWriter(st.getMyId() + "migration.txt", true);
 			BufferedWriter bw = new BufferedWriter(fw);

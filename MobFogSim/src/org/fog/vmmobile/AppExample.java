@@ -1052,8 +1052,8 @@ public class AppExample {
 			break;	
 		case 4 :
 			policyName="LIVE_MIGRATION_MIRROR";
-			PeriodicTimeUp=(long)((double)PeriodicTimeUp*0.8);
-			PeriodicTimeDown=(long)((double)PeriodicTimeDown*0.8);
+			PeriodicTimeUp=(long)((double)PeriodicTimeUp*0.5);
+			PeriodicTimeDown=(long)((double)PeriodicTimeDown*0.5);
 			break;	
 		default:
 			policyName="Not Set";
@@ -1084,23 +1084,23 @@ public class AppExample {
 
 		// adding periodic edge (period=1000ms) from Concentration Calculator to
 		//Connector module carrying tuples of type PLAYER_GAME_STATE
-		application.addAppEdge(userVm.getName(), userVm.getName(), PeriodicTimeUp, 966,
+		application.addAppEdge(userVm.getName(), userVm.getName(), PeriodicTimeUp, 966,//first
 			54, "PLAYER_GAME_STATE" + myId, Tuple.UP, AppEdge.MODULE);
 		// adding edge from Concentration Calculator to Client module carrying
 		//tuples of type CONCENTRATION
-		application.addAppEdge(userVm.getName(), "client" + myId, 2439, 87,
+		application.addAppEdge(userVm.getName(), "client" + myId, PeriodicTimeDown, 87,//2439
 			"CONCENTRATION" + myId, Tuple.DOWN, AppEdge.MODULE);
 		// adding periodic edge (period=1000ms) from Connector to Client module
 		//carrying tuples of type GLOBAL_GAME_STATE
-		application.addAppEdge(userVm.getName(), "client" + myId, PeriodicTimeDown, 28,
+		application.addAppEdge(userVm.getName(), "client" + myId, PeriodicTimeDown, 28,//first
 			87, "GLOBAL_GAME_STATE" + myId, Tuple.DOWN, AppEdge.MODULE);
 		// adding edge from Client module to Display (actuator) carrying tuples
 		// of type SELF_STATE_UPDATE
-		application.addAppEdge("client" + myId, "DISPLAY" + myId, 2439, 87,
+		application.addAppEdge("client" + myId, "DISPLAY" + myId,PeriodicTimeDown , 87,//2439
 			"SELF_STATE_UPDATE" + myId, Tuple.DOWN, AppEdge.ACTUATOR);
 		// adding edge from Client module to Display (actuator) carrying tuples
 		// of type GLOBAL_STATE_UPDATE
-		application.addAppEdge("client" + myId, "DISPLAY" + myId, 2439, 87,
+		application.addAppEdge("client" + myId, "DISPLAY" + myId,PeriodicTimeDown , 87,//2439
 			"GLOBAL_STATE_UPDATE" + myId, Tuple.DOWN, AppEdge.ACTUATOR);
 
 		/*
