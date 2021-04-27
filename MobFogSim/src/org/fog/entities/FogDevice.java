@@ -1082,10 +1082,11 @@ public class FogDevice extends PowerDatacenter {
 			break;
 		case 3 :
 			policyName="LIVE_MIGRATION_PRECOPY";
+			Overload=1.05;
 			break;	
 		case 4 :
 			policyName="LIVE_MIGRATION_MIRROR";
-			Overload=1.02;
+			Overload=1.35;
 			break;	
 		default:
 			policyName="Not Set";
