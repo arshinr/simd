@@ -105,7 +105,8 @@ public class AppExample {
 	static final boolean CLOUD = true;
 	private static long PeriodicTimeUp=1000;
 	private static long PeriodicTimeDown=2439;
-
+	private static long VmSizeVar=128;
+	
 	static final int numOfDepts = 1;
 	static final int numOfMobilesPerDept = 4;
 	static final double EEG_TRANSMISSION_TIME = 10;
@@ -191,6 +192,9 @@ public class AppExample {
 		setPeriodicTimeUp(Long.parseLong( args[10]));
 		setPeriodicTimeDown(Long.parseLong( args[11]));
 
+		setVmSize(Long.parseLong( args[12]));
+		
+		
 		/**
 		 * STEP 2: CREATE ALL DEVICES -> example from: CloudSim - example5.java
 		 **/
@@ -282,7 +286,7 @@ public class AppExample {
 		for (MobileDevice st : getSmartThings()) {
 			if (st.getSourceAp() != null) {
 				CloudletScheduler cloudletScheduler = new TupleScheduler(500, 1); 
-				long sizeVm = 128;
+				long sizeVm = getVmSize();
 				AppModule vmSmartThingTest = new AppModule(st.getMyId() // id
 					, "AppModuleVm_" + st.getName() // name
 					, "MyApp_vr_game" + st.getMyId() // appId
@@ -1052,8 +1056,8 @@ public class AppExample {
 			break;	
 		case 4 :
 			policyName="LIVE_MIGRATION_MIRROR";
-			PeriodicTimeUp=(long)((double)PeriodicTimeUp*0.5);
-			PeriodicTimeDown=(long)((double)PeriodicTimeDown*0.5);
+			PeriodicTimeUp=(long)((double)PeriodicTimeUp*0.8);
+			PeriodicTimeDown=(long)((double)PeriodicTimeDown*0.8);
 			break;	
 		default:
 			policyName="Not Set";
@@ -1434,6 +1438,14 @@ public class AppExample {
 
 	public static void setPeriodicTimeDown(long PeriodicTime) {
 		AppExample.PeriodicTimeDown = PeriodicTime;
+	}
+
+	public static long getVmSize() {
+		return VmSizeVar;
+	}
+
+	public static void setVmSize(long VmSize) {
+		AppExample.VmSizeVar = VmSize;
 	}
 
 }
