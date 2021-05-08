@@ -45,9 +45,10 @@ In src/org/fog/vmmobile/AppExample.java, run as -> Java application
 *  Tenth parameter: Positive negative Integer -> Base Network Latency between cloudlets
 *  Eleventh parameter: getPeriodicTimeUp
 *  Twelfth parameter: getPeriodicTimeDown
+*  thirteenth: VMsize
 
 Example
-1 290538 0 0 1 11 0 0 0 61 1000 2439
+1 290538 0 0 1 11 0 0 0 61 1000 2439 128
 
 
 ## Input
