@@ -1,6 +1,11 @@
-# Fog Simulation
+# MobFogSim
+MobFogSim - Simulation of Mobility and Migration for Fog Computing
 
-## Running the Sim
+MobFogSim extends iFogSim to enable modeling of device mobility and service migration in fog computing
+
+More details can be found in the following paper: Puliafito, Carlo, et al. "MobFogSim: Simulation of Mobility and Migration for Fog Computing." Simulation Modelling Practice and Theory (2019)
+
+## Running MobFogSim
 
 Building your simulation
 *  First step: Follow the following steps
@@ -31,6 +36,12 @@ In src/org/fog/vmmobile/AppExample.java, run as -> Java application
 ### Requirements
 * JAVA SDK
 
+Optional:
+
+* IBM CPLEX for optimization algorithms
+
+* cscope for browsing the source code
+
 ## Parameters
 
 *  First parameter: 0/1 -> migration processes are denied or allowed
@@ -43,12 +54,9 @@ In src/org/fog/vmmobile/AppExample.java, run as -> Java application
 *  Eighth parameter: Non-Negative Integer -> User Mobility prediction, in seconds
 *  Ninth parameter: Non-Negative Integer -> User Mobility prediction inaccuracy, in meters
 *  Tenth parameter: Positive negative Integer -> Base Network Latency between cloudlets
-*  Eleventh parameter: getPeriodicTimeUp
-*  Twelfth parameter: getPeriodicTimeDown
-*  thirteenth: VMsize
 
 Example
-1 290538 0 0 1 11 0 0 0 61 1000 2439 128
+1 290538 0 0 1 11 0 0 0 61
 
 
 ## Input
